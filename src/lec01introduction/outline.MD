@@ -1,14 +1,19 @@
-# Java编程技术第一讲: Java 简介与开发环境 #
+#  Java 简介：表达式、标准输出 #
 ## Java简介
 
+- a pure OOP language
+- with powerful tools
+- in simple&clear grammar 
+- more features
+
 ## Java 开发环境搭建
-- JDK
+- JDK(Java Development Kits)
 - Eclipse
-- IntelliJ 
+- IntelliJ (Recommend)
 
 
 ## 第一个java程序
-```
+```Java
 public class Welcome {
 	public static void main(String[] args) {
 		System.out.println("Welcome to learn Java Programming~");
@@ -17,7 +22,7 @@ public class Welcome {
 
 ```
 ## 表达式计算
-```
+```Java
 public class Expression {
 	public static void main(String[] args) {
 		int x;//variable
@@ -30,13 +35,12 @@ public class Expression {
 	}
 }
 ```
-```
+```Java
 public class Life {
 	public static void main(String[] args) {
 		System.out.println(100 * 365 * 24 * 3600 * 1000 * 1L);//bugs here
 		System.out.println(1L* 100 * 365 * 24 * 3600 * 1000 );
 
-		//expression {type value}
 	}
 }
 ```
@@ -58,5 +62,5 @@ public class Life {
 - 计算半径为10的圆的面积和周长
 - 输出一个整数的长度
 
-## 顺序程序设计习题集
+## 顺序程序设计习题集（前2周习题
 http://oj.ahstu.cc/JudgeOnline/contest.php?cid=1057
