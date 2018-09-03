@@ -55,9 +55,9 @@ public class Life {
 - 期中考试
 - 期末考试
 ## excise
-- 输出Hello World
-- 输出两个变量的和
-- 计算100年的毫秒值
+- Welcome.java 输出Hello World
+- Expression.java 输出两个变量的和差积商
+- Life.java 计算100年的毫秒值
 ## homework
 - 计算半径为10的圆的面积和周长
 - 输出一个整数的长度
