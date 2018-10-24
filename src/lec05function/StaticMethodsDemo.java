@@ -30,5 +30,6 @@ public class StaticMethodsDemo {
 	    System.out.println(A.sub(7,2));
 	    System.out.println(Math.sqrt(2));
 	    System.out.println(add(1,2));
+	   //A.dodo();
     }
 }
