@@ -1,3 +1,5 @@
+package lec07str;
+
 public class CheckSysmetric {
 	public static void main(String[] args) {
 		String s = "ABA";
