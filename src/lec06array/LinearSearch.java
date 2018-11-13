@@ -8,7 +8,7 @@ public class LinearSearch {
 		System.out.println(pos);
 	}
 
-	private static int find(int[] a, int k) {//O(n)
+	static int find(int[] a, int k) {//O(n)
 		for (int i = 0; i < a.length; i++) {
 			if (a[i] == k)
 				return i;
