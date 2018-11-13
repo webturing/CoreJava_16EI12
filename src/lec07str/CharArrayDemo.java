@@ -1,4 +1,4 @@
-package lec07string;
+package lec07str;
 
 import java.util.Arrays;
 
