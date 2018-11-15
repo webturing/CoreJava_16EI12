@@ -1,14 +1,14 @@
 package lec07str;
 
 public class StringAPI {
-	public static void main(String[] args) {
-		String s = "ABC";
-		System.out.println(s);// "ABC"
-		System.out.println(s.length());// 3
-		System.out.println(s.charAt(1));// 'B'
-		System.out.println(s.hashCode());// ´®"ABC"ËùÔÚµÄµØÖ·
-		s = s + "DEF";
-		System.out.println(s);// ABCDEF
-		System.out.println(s.hashCode());// ´®"ABCDEF"ËùÔÚµÄµØÖ·
-	}
+    public static void main(String[] args) {
+        String s = "ABC";
+        System.out.println(s);// "ABC"
+        System.out.println(s.length());// 3
+        System.out.println(s.charAt(1));// 'B'
+        System.out.println(s.hashCode());// ï¿½ï¿½"ABC"ï¿½ï¿½ï¿½ÚµÄµï¿½Ö·
+        s = s + "DEF";
+        System.out.println(s);// ABCDEF
+        System.out.println(s.hashCode());// ï¿½ï¿½"ABCDEF"ï¿½ï¿½ï¿½ÚµÄµï¿½Ö·
+    }
 }
