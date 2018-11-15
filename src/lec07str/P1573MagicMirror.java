@@ -3,8 +3,8 @@ package lec07str;
 public class P1573MagicMirror {
 
     public static void main(String[] args) {
-        String s = "ABBAABBA";
-        if (check(s)) {
+        String s = "ABBAABBAABBAABBAABBAABBAABBAABBA";
+        while (check(s)) {
             s = s.substring(0, s.length() / 2);
         }
         System.out.println(s);
