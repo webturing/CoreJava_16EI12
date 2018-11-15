@@ -4,10 +4,11 @@
 -   ASCII 
 -  Unicode
 - Character API 
+
 ## CharArray 
 - char[] arr=new char[10];
 - arr.fill('A');
-- sort
+- Arrays.sort
 - System.out.println(arr);//new String(arr);
 
 ## String
