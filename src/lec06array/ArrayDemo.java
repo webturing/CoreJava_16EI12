@@ -5,26 +5,26 @@ import java.util.Arrays;
 
 
 public class ArrayDemo {
-public static void main(String[] args) {
-	int a[]=null;
-	System.out.println(a);
-	int [] b;
-	//int c[3];//CE
-	int []c={1,2,3};
-	System.out.println(c);//hashcode
-	
-	for(int i=0;i<c.length;i++)//¶ÁÐ´
-		System.out.print(c[i]+" ");
-	System.out.println();
-	
-	for(int i:c)//for_each Ö»¶ÁÄ£Ê½·ÃÎÊÊý×é
-		System.out.print(i+" ");
-	System.out.println();
-	
-	System.out.println(Arrays.toString(c));//ÊÊºÏdebug dump
-	int d[]=new int[4];
-	System.out.println(d);
-	System.out.println(Arrays.toString(d));//ÊÊºÏdebug dump
-	
-}
+    public static void main(String[] args) {
+        int a[] = null;
+        System.out.println(a);
+        int[] b;
+        //int c[3];//CE
+        int[] c = {1, 2, 3};
+        System.out.println(c);//hashcode
+
+        for (int i = 0; i < c.length; i++)//ï¿½ï¿½Ð´
+            System.out.print(c[i] + " ");
+        System.out.println();
+
+        for (int i : c)//for_each Ö»ï¿½ï¿½Ä£Ê½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+            System.out.print(i + " ");
+        System.out.println();
+
+        System.out.println(Arrays.toString(c));//ï¿½Êºï¿½debug dump
+        int d[] = new int[4];
+        System.out.println(d);
+        System.out.println(Arrays.toString(d));//ï¿½Êºï¿½debug dump
+
+    }
 }
