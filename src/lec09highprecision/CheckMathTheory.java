@@ -15,7 +15,6 @@ public class CheckMathTheory {
             if (s.equals(t)||step>200)
                 break;
             ++step;
-
             BigInteger y = new BigInteger(t);
             BigInteger z = x.add(y);
             System.out.println(String.format("%d:%d+%d=%d", step, x, y, z));
