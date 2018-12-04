@@ -1,7 +1,7 @@
 package p1;
 
-//封装: 
-class Person {//类=数据(字段)+操作(函数、方法)	
+//???: 
+class Person {//??=????(???)+????(??????????)	
 	String name;//membered field
 	int age;//membered field
 	void growup(){	//membered method
@@ -14,7 +14,7 @@ class Person {//类=数据(字段)+操作(函数、方法)
 
 public class OOPDemo {
 	public static void main(String[] args) {
-		Person tom=new Person();//构造方法
+        Person tom = new Person();//??????
 		tom.name="Tom";
 		tom.age=18;
 		tom.show();

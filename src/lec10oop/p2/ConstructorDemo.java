@@ -22,7 +22,7 @@ class Person{
 	}
 }
 public class ConstructorDemo {
-	public static void main(String[] args) {//÷ÿ‘ÿOverload
+    public static void main(String[] args) {//????Overload
 		Person tom=new Person("tom",18);
 		tom.show();	
 		Person peter=new Person("peter");
