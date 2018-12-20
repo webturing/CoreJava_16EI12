@@ -12,7 +12,7 @@ public class CheckMathTheory {
         while (true) {
             String s = x.toString();
             String t = new StringBuffer(s).reverse().toString();
-            if (s.equals(t)||step>200)
+            if (s.equals(t) || step > 200)
                 break;
             ++step;
             BigInteger y = new BigInteger(t);
